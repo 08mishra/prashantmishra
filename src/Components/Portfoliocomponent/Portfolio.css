@@ -1,0 +1,99 @@
+.container {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    padding: 10px;
+    transition: all ease 0.6s;
+    min-height: 80vh;
+    justify-content: space-between;
+}
+
+.container-grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 5px;
+    max-width: 1250px;
+}
+
+.row1 {
+    width: 320px;
+    min-height: 320px;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    background: white;
+    font-weight: 700;
+}
+
+.row1 a {
+    font-size: 25px;
+    color: black;
+}
+
+.visitmore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+#btnmore {
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid rgb(143, 8, 8);
+    font-size: 20px;
+}
+
+#btnmore i {
+    color: #fff;
+}
+
+
+/* 
+.img1 {
+    background: url("./randomquote-generator.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background: url("./newsapp.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background: url("./weatherapp.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img4 {
+    background: url("./calculator.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img5 {
+    background: url("./musicapp.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img6 {
+    background: url("./todolist.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+} */

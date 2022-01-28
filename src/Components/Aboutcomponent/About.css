@@ -1,0 +1,239 @@
+.container {
+    padding: 10px;
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    transition: all ease 0.3s;
+}
+
+.left-container {
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    width: 40vw;
+    /* border-right: 2px solid rgb(172, 1, 72); */
+}
+
+.container-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+#content-heading {
+    color: rgb(223, 1, 75);
+    font-size: 25px;
+}
+
+.item1 {
+    display: inline-block;
+    text-align: left;
+}
+
+.item2 {
+    display: inline-block;
+    text-align: center;
+}
+
+.item1 p {
+    color: #fff;
+}
+
+.item2 p {
+    color: #fff;
+}
+
+.item1 h3 {
+    color: rgb(223, 1, 75);
+}
+
+.item2 h3 {
+    color: rgb(223, 1, 75);
+}
+
+.right-container {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    width: 50vw;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experience {
+    width: 200px;
+    height: 120px;
+    border-radius: 7px;
+    border: 1px solid rgb(223, 1, 75);
+    /* box-shadow: 2px 0px 12px 5px rgba(52, 76, 183, 0.99); */
+    text-align: center;
+    padding: 5px;
+}
+
+.project {
+    width: 200px;
+    height: 120px;
+    border-radius: 7px;
+    border: 1px solid rgb(223, 1, 75);
+    /* box-shadow: 2px 0px 12px 5px rgba(52, 76, 183, 0.99); */
+    text-align: center;
+    padding: 5px;
+}
+
+#cv {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(223, 1, 75);
+    /* box-shadow: 2px 0px 12px 5px rgba(52, 76, 183, 0.99); */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#ex-data {
+    color: rgb(223, 1, 75);
+    font-size: 30px;
+}
+
+#pr-data {
+    color: rgb(223, 1, 75);
+    font-size: 30px;
+}
+
+.skills {
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    min-height: 50vh;
+    transition: all ease 0.3s;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1 {
+    color: #c84b31;
+}
+
+.skill-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(223, 1, 75);
+    font-size: 20px;
+}
+
+.fab {
+    padding: 5px;
+    /* color: rgb(236, 2, 2); */
+    color: #fff;
+    font-size: 45px;
+}
+
+.left-skill {
+    width: 40%;
+    padding: 10px;
+}
+
+.right-skill {
+    padding: 10px;
+    width: 40%;
+}
+
+.experience-main {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    min-height: 50vh;
+    transition: all ease 0.3s;
+}
+
+.ex-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #c84b31;
+}
+
+.fodrix {
+    padding: 20px;
+}
+
+.fodrix a {
+    font-size: 45px;
+}
+
+.ex-detail {
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    transition: all ease 0.3s;
+}
+
+.fodrix p {
+    color: #fff;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .left-container {
+        width: 100%;
+    }
+    .right-container {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    /* .container-item {
+        flex-direction: column;
+    } */
+    .experience {
+        margin-bottom: 30px;
+    }
+    .item2 {
+        text-align: center;
+    }
+    .skill-container {
+        flex-direction: column;
+    }
+    .left-skill {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-skill {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #cv {
+        margin-top: 35px;
+    }
+}

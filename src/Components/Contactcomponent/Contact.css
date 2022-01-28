@@ -1,0 +1,157 @@
+.container {
+    width: 100%;
+    min-height: 80vh;
+    padding: 10px;
+    position: relative;
+    top: 25px;
+    transition: all ease 0.3s;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #c84b31;
+    position: relative;
+    top: 20px;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    min-height: 60vh;
+    transition: all ease 0.3s;
+}
+
+.left-contact {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.left-text {
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.left-connect {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-connect a {
+    font-size: 25px;
+}
+
+.right-contact {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-connect {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.fas {
+    color: #fff;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.fab {
+    color: #fff;
+    font-size: 30px;
+}
+
+.input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input-form input {
+    width: 80%;
+    border-radius: 20px;
+    height: 40px;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid #c84b31;
+    outline: none;
+    color: #fff;
+}
+
+.input-form input:focus {
+    outline: none;
+}
+
+.input-form textarea {
+    width: 80%;
+    border-radius: 20px;
+    height: 140px;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid #c84b31;
+    outline: none;
+    color: #fff;
+}
+
+.form-button {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+
+.form-button button {
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #c84b31;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    color: rgb(143, 10, 10);
+    font-size: 20px;
+}
+
+#send-icon {
+    font-size: 20px;
+}
+
+.form-button button:focus {
+    outline: none;
+}
+
+.form-button button:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .contact {
+        flex-direction: column;
+    }
+    .left-contact {
+        width: 100%;
+    }
+    .right-contact {
+        margin-top: 25px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+#navbar {
+    padding: 20px;
+    background: #191919 !important;
+    border-bottom: 2px solid rgb(202, 29, 29);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav-items {
+    justify-content: flex-end;
+}
