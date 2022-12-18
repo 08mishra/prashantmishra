@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prashantmishra/static/css/main.714422e0.css",
-    "main.js": "/prashantmishra/static/js/main.cb5a5b62.js",
+    "main.js": "/prashantmishra/static/js/main.4548bb3b.js",
     "static/js/787.bc5f91e9.chunk.js": "/prashantmishra/static/js/787.bc5f91e9.chunk.js",
     "static/media/prashantlogo.png": "/prashantmishra/static/media/prashantlogo.e90699905f24ea642ac6.png",
     "static/media/PRASHANTKUMAR.pdf": "/prashantmishra/static/media/PRASHANTKUMAR.467369c6e463c711bf7b.pdf",
@@ -9,11 +9,11 @@
     "static/media/Prashant.jpg": "/prashantmishra/static/media/Prashant.226d7dac9f5b7af7be3e.jpg",
     "index.html": "/prashantmishra/index.html",
     "main.714422e0.css.map": "/prashantmishra/static/css/main.714422e0.css.map",
-    "main.cb5a5b62.js.map": "/prashantmishra/static/js/main.cb5a5b62.js.map",
+    "main.4548bb3b.js.map": "/prashantmishra/static/js/main.4548bb3b.js.map",
     "787.bc5f91e9.chunk.js.map": "/prashantmishra/static/js/787.bc5f91e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.714422e0.css",
-    "static/js/main.cb5a5b62.js"
+    "static/js/main.4548bb3b.js"
   ]
 }
