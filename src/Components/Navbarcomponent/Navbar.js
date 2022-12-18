@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import Prashant from "./PRASHANTKUMAR.pdf";
+import Prashant from "./prashantresume.pdf";
 import Prashantlogo from "./prashantlogo.png";
 export default class Navbar extends React.Component {
   constructor(props) {

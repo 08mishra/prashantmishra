@@ -22,11 +22,7 @@ export default class Contact extends React.Component {
                   <i class="fas fa-envelope"></i>Mail me
                 </a>
               </div>
-              <div className="left-connect">
-                <a href="tel:9555867020">
-                  <i class="fas fa-phone-alt"></i>Call
-                </a>
-              </div>
+               
               <div className="icon-connect">
                 <a
                   href="https://github.com/08mishra"
