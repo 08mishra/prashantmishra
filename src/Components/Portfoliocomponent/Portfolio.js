@@ -8,7 +8,7 @@ export default class Portfolio extends React.Component {
         <div className="container">
           <div className="container-grid">
           <div className="row1 img7">
-          <img alt="icon1" src="https://img.icons8.com/ios-filled/50/000000/github.png"/>
+            <img alt="icon1" src="https://img.icons8.com/ios-filled/50/000000/github.png"/>
             <a
               href="https://github.com/08mishra"
               target="_blank"
@@ -18,25 +18,16 @@ export default class Portfolio extends React.Component {
             </a>
           </div>
           <div className="row1 img7">
-          <img alt="icon2" src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-blog-digital-content-wanicon-lineal-color-wanicon.png"/>
+            <img alt="icon2" src="https://icons8.com/icon/XKedzxVhRNPR/man-student"/>
             <a
-              href="https://arcane-cove-10619.herokuapp.com/"
+              href="https://apnalscollege.onrender.com/"
               target="_blank"
               rel="noreferrer"
             >
-               BLOG-WEBSITE
+                LS_COLLEGE  STUDENT_COMMUNITY
             </a>
           </div>
-          <div className="row1 img7">
-          <img alt="icon3" src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-newsletter-ecommerce-vitaliy-gorbachev-flat-vitaly-gorbachev.png"/>
-            <a
-              href="https://quiet-everglades-90388.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-               NEWSLETTER-SUBSCRIPTION PAGE
-            </a>
-          </div>
+          
             <div className="row1 img7">
             <img alt="icon4" src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-development-business-model-canvas-wanicon-lineal-color-wanicon.png"/>
               <a

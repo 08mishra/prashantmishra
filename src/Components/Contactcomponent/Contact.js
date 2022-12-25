@@ -38,20 +38,8 @@ export default class Contact extends React.Component {
                 >
                   <i class="fab fa-linkedin"></i> Linkedin
                 </a>
-                <a
-                  href="https://twitter.com/08_mishra"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i class="fab fa-twitter"></i> Twitter
-                </a>
-                <a
-                  href="https://codepen.io/08_mishra"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i class="fab fa-codepen"></i>Codepen
-                </a>
+                
+               
               </div>
             </div>
             <div className="right-contact">
