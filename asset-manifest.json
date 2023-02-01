@@ -1,19 +1,18 @@
 {
-  "files": {
-    "main.css": "/prashantmishra/static/css/main.714422e0.css",
-    "main.js": "/prashantmishra/static/js/main.ecc28877.js",
-    "static/js/787.bc5f91e9.chunk.js": "/prashantmishra/static/js/787.bc5f91e9.chunk.js",
-    "static/media/prashantlogo.png": "/prashantmishra/static/media/prashantlogo.e90699905f24ea642ac6.png",
-    "static/media/PRASHANTKUMAR.pdf": "/prashantmishra/static/media/PRASHANTKUMAR.467369c6e463c711bf7b.pdf",
-    "static/media/prashantresume.pdf": "/prashantmishra/static/media/prashantresume.8beb6a44602895f744d4.pdf",
-    "static/media/Prashant.jpg": "/prashantmishra/static/media/Prashant.226d7dac9f5b7af7be3e.jpg",
-    "index.html": "/prashantmishra/index.html",
-    "main.714422e0.css.map": "/prashantmishra/static/css/main.714422e0.css.map",
-    "main.ecc28877.js.map": "/prashantmishra/static/js/main.ecc28877.js.map",
-    "787.bc5f91e9.chunk.js.map": "/prashantmishra/static/js/787.bc5f91e9.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.714422e0.css",
-    "static/js/main.ecc28877.js"
-  ]
+  "main.css": "/prashantmishra/static/css/main.065b6b9f.chunk.css",
+  "main.js": "/prashantmishra/static/js/main.a0dd05ba.chunk.js",
+  "main.js.map": "/prashantmishra/static/js/main.a0dd05ba.chunk.js.map",
+  "static/js/1.046e0513.chunk.js": "/prashantmishra/static/js/1.046e0513.chunk.js",
+  "static/js/1.046e0513.chunk.js.map": "/prashantmishra/static/js/1.046e0513.chunk.js.map",
+  "static/js/2.2589f6af.chunk.js": "/prashantmishra/static/js/2.2589f6af.chunk.js",
+  "static/js/2.2589f6af.chunk.js.map": "/prashantmishra/static/js/2.2589f6af.chunk.js.map",
+  "runtime~main.js": "/prashantmishra/static/js/runtime~main.cc9b9c78.js",
+  "runtime~main.js.map": "/prashantmishra/static/js/runtime~main.cc9b9c78.js.map",
+  "static/media/prashantresume.pdf": "/prashantmishra/static/media/prashantresume.87a66464.pdf",
+  "static/media/Prashant.jpg": "/prashantmishra/static/media/Prashant.7993fe8f.jpg",
+  "static/media/PRASHANTKUMAR.pdf": "/prashantmishra/static/media/PRASHANTKUMAR.2e2bcb6a.pdf",
+  "static/css/main.065b6b9f.chunk.css.map": "/prashantmishra/static/css/main.065b6b9f.chunk.css.map",
+  "index.html": "/prashantmishra/index.html",
+  "precache-manifest.def6ad954dca65a15deed6f1b0423032.js": "/prashantmishra/precache-manifest.def6ad954dca65a15deed6f1b0423032.js",
+  "service-worker.js": "/prashantmishra/service-worker.js"
 }
