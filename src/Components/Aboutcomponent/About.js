@@ -6,56 +6,24 @@ export default class About extends React.Component {
   render() {
     return (
       <>
-        <div className="container">
-          <div className="left-container">
-            <div className="container-item">
-              <div className="item1">
-                <p id="content-heading">Name:</p>
-                <p>Prashant Kumar</p>
-              </div>
-              <div className="item2">
-                <p id="content-heading">Address:</p>
-                <p>Delhi, India</p>
-                <p>Bihar, India</p>
-              </div>
-            </div>
-            <div className="container-item">
-              <div className="item1">
-                <p id="content-heading">Age:</p>
-                <p>21</p>
-              </div>
-              <div className="item2">
-                <p id="content-heading">Nationality:</p>
-                <p>Indian</p>
-              </div>
-            </div>
-            <div className="container-item">
-              <div className="item1">
-                <p id="content-heading">Freelance:</p>
-                <p>Available</p>
-              </div>
-              <div className="item2">
-                <p id="content-heading">Language:</p>
-
-                <p>Hindi, English</p>
-              </div>
-            </div>
-          </div>
-          <div className="right-container">
-            <div className="experience">
+        <div className="container" id="containerAbout">
+           
+          
+          
+            <div className="cont-div experience">
               <h3>experience</h3>
               <span id="ex-data">1+ year</span>
             </div>
-            <div className="project">
+            <div className="cont-div project">
               <h3>project</h3>
               <span id="pr-data">25+ projects</span>
             </div>
-            <div id="cv">
+            <div id="cv" className="cont-div">
               <a href={Prashant} target="_blank" rel="noreferrer">
-                MY CV
+                MY Resume
               </a>
             </div>
-          </div>
+          
         </div>
         <div className="skills">
           <div className="header">
@@ -107,7 +75,7 @@ export default class About extends React.Component {
           <div className="fodrix">
             <li>
               <a
-                href="https://fodrix.com/about_us"
+                href="https://fodrix.com/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -117,10 +85,9 @@ export default class About extends React.Component {
             <div className="ex-detail">
               <p>
                 I was an intern there for 3 months. Workig at fodrix include my
-                role to design and develope the client side of their Website.
+                role to develope the client side of their Website.
                 <br />
-                My task also include working with postman and fetching data with
-                api using React framework.
+                My task also include working with API and integrating it with the website.
               </p>
             </div>
           </div>

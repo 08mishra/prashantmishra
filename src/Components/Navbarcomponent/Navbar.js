@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import Prashant from "./prashantresume.pdf";
-import Prashantlogo from "./prashantlogo.png";
+//import Prashantlogo from "./prashantlogo.png";
 export default class Navbar extends React.Component {
   constructor(props) {
     super(props);
@@ -23,11 +23,7 @@ export default class Navbar extends React.Component {
       <nav id="navbar" className="navbar navbar-expand-lg navbar-dark bg-dark">
         <Link className="navbar-brand" to="/">
           {" "}
-          <img
-            src={Prashantlogo}
-            alt="logo"
-            style={{ width: "34px", height: "34px" }}
-          />
+          <h2>port<span style={{color:"red"}}>folio</span></h2>
         </Link>{" "}
         <button
           className="navbar-toggler"
@@ -61,7 +57,7 @@ export default class Navbar extends React.Component {
               target="_blank"
               rel="noreferrer"
             >
-              MY CV
+              MY Resume
             </a>
           </div>{" "}
         </div>{" "}
